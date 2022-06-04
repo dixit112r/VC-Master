@@ -1,0 +1,90 @@
+.header {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+.wrapper{
+  display: flex;
+  height: auto;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion{
+  width: 500px;
+}
+
+  
+.item{
+  border:5px;
+  background: cornsilk;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+}
+
+.title{
+  color: #85662b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:10px;
+}
+
+.content{
+  color: darkslategray;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+
+.content.show{
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1,0,1,0);
+
+}
+
+.titleTask{
+  color: darkslateblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:10px;
+  
+}
+.itemTask{
+  border:5px;
+  background: lightblue;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+}
+.itemAddTask{
+  border:5px;
+  background: lightblue;
+  padding: 10px 20px;
+}
+.editTask{
+  border:5px;
+  background:lightgoldenrodyellow;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+}
+
+.priority{
+  color:white;
+  width:150px;
+  padding-top: 2px;
+  border-radius: 5px;
+}
+
+.form-label{
+  margin: 4px 4px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-row{
+  margin: 6px 0px 6px 0px;
+}
